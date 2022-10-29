@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "electron .",
-    "prettier": "yarn prettier --write ."
+    "prettier": "prettier --write ."
   },
   "devDependencies": {
     "electron": "^19.0.0",
