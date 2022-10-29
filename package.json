@@ -7,10 +7,16 @@
   "license": "MIT",
   "scripts": {
     "start": "electron .",
-    "prettier": "prettier --write ."
+    "prettier": "prettier --write .",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "electron": "^19.0.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "prettier": "2.7.1"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
