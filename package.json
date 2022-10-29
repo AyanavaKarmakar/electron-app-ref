@@ -4,5 +4,8 @@
   "main": "main.js",
   "author": "Ayanava Karmakar",
   "description": "Reference code for building apps using Electron.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^21.2.0"
+  }
 }
