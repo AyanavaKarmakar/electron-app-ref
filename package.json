@@ -5,7 +5,10 @@
   "author": "Ayanava Karmakar",
   "description": "Reference code for building apps using Electron.js",
   "license": "MIT",
-  "dependencies": {
-    "electron": "^21.2.0"
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^19.0.0"
   }
 }
