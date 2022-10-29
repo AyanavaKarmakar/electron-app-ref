@@ -1,0 +1,8 @@
+{
+  "name": "electron-app-ref",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "Ayanava Karmakar",
+  "description": "Reference code for building apps using Electron.js",
+  "license": "MIT"
+}
